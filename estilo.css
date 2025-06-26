@@ -1,0 +1,946 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#fundo1{
+    background-image: url("imagens/ancora2.jpg");
+}
+
+.cabecalho1{
+    background-color: #A85921;
+}
+
+.banner{
+    background-image: url(imagens/ancora2.jpg);
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+}
+
+.logo-banner{
+    background-color: #A85921;
+    border: 3px solid #fff;
+    border-radius: 40px;
+    width: 450px;
+}
+
+.logo{
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo-texto{
+    font-family: "Inknut Antiqua";
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.link-menu1{
+    font-family: "Inknut Antiqua";
+    color: black;
+    display: inline-block;
+    margin-left: 590px;
+    margin-right: 45px;
+    font-size: 20px;
+    font-weight: medium;
+    text-decoration: none;
+}
+
+.link-menu2{
+    font-family: "Inknut Antiqua";
+    color: black;
+    display: inline-block;
+    margin-right: 45px;
+    font-size: 20px;
+    font-weight: medium;
+    text-decoration: none;
+}
+
+.link-menu3{
+    font-family: "Inknut Antiqua";
+    color: black;
+    display: inline-block;
+    margin-right: 45px;
+    font-size: 20px;
+    font-weight: medium;
+    text-decoration: none;
+}
+
+.botao-navegar{
+    font-family: "Inknut Antiqua";
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #A85921;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.botao{
+    padding-top: 123px;
+    margin-left: 5px;
+}
+
+#col1{
+    background-color: #A85921;
+    width: 400px;
+    margin-top: 176px;
+    margin-bottom: 176px;
+    margin-left: 453px;
+    margin-right: 452px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 40px;
+    border: 3px solid #E6914E;  
+}
+
+body{
+    background-size: cover;   
+}
+
+.login{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 37px;
+    padding-bottom: 20px;
+}
+
+.dados{
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.rotulo1{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.rotulo2{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.campo-texto{
+    font-weight: 500;
+    width: 359px;
+    font-size: 16px;
+    color: #000; 
+    padding: 7px 13px; 
+    border: 2px solid #E6914E;  
+    border-radius: 10px;  
+    box-sizing: border-box;
+}
+
+.botao-entrar{
+    color: #fff;
+    background-color: #E6914E;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #fff;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.botao-criar-conta{
+    color: #fff;
+    background-color: #E6914E;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #fff;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#col2{
+    background-color: #A85921;
+    width: 400px;
+    margin-top: 176px;
+    margin-bottom: 176px;
+    margin-left: 453px;
+    margin-right: 452px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 40px;
+    border: 3px solid #E6914E;  
+}
+
+.campo-texto1{
+    font-weight: 500;
+    width: 359px;
+    font-size: 16px;
+    color: #000; 
+    padding: 7px 13px; 
+    border: 2px solid #E6914E;  
+    border-radius: 10px;  
+    box-sizing: border-box;
+}
+
+.login2{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 37px;
+    padding-bottom: 20px;
+}
+
+.dados2{
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.rotulo01{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.rotulo02{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.rotulo03{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.rotulo04{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.rotulo05{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.rotulo06{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.rotulo07{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.sexo{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.caixa{
+font-family: "Inknut Antiqua";
+font-weight: 500;
+margin-bottom: 10px;
+padding: 5px;
+border-radius: 10px;
+}
+
+.botao-criar{
+color: #fff;
+background-color: #E6914E;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+border-radius: 10px;
+border: 2px solid #fff;   
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 15px;
+}
+
+.botao-voltar{
+color: #fff;
+background-color: #E6914E;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+border-radius: 10px;
+border: 2px solid #fff;   
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 10px;
+margin-bottom: 40px;
+}
+
+/* CRIAR CONTA */
+
+#col2{
+    background-color: #A85921;
+    width: 400px;
+    margin-top: 176px;
+    margin-bottom: 176px;
+    margin-left: 453px;
+    margin-right: 452px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 40px;
+    border: 3px solid #000;  
+}
+
+.campo-texto1{
+    font-weight: 500;
+    width: 359px;
+    font-size: 16px;
+    color: #000; 
+    padding: 7px 13px; 
+    border: 2px solid #E6914E;  
+    border-radius: 10px;  
+    box-sizing: border-box;
+}
+
+.login2{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 37px;
+    padding-bottom: 20px;
+}
+
+.dados2{
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.rotulo01{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.rotulo02{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.rotulo03{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.rotulo04{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.rotulo05{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.rotulo06{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.rotulo07{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.sexo{
+color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.caixa{
+font-family: "Inknut Antiqua";
+font-weight: 500;
+margin-bottom: 10px;
+padding: 5px;
+border-radius: 10px;
+}
+
+.botao-criar{
+background-color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+border-radius: 10px;
+border: 2px solid #000;   
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 15px;
+}
+
+.botao-voltar{
+background-color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+border-radius: 10px;
+border: 2px solid #000;   
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 10px;
+margin-bottom: 40px;
+}
+
+/* LOGIN */
+
+#col1{
+    background-color: #A85921;
+    width: 400px;
+    margin-top: 176px;
+    margin-bottom: 176px;
+    margin-left: 453px;
+    margin-right: 452px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 40px;
+    border: 3px solid #000;  
+}
+
+.login{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 37px;
+    padding-bottom: 20px;
+}
+
+.dados{
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.rotulo1{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.rotulo2{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.campo-texto{
+    font-weight: 500;
+    width: 359px;
+    font-size: 16px;
+    color: #000; 
+    padding: 7px 13px; 
+    border: 2px solid #000;  
+    border-radius: 10px;  
+    box-sizing: border-box;
+}
+
+.botao-entrar{
+    background-color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.botao-criar-conta{
+    background-color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* PAGINA INICIAL */
+
+#inicial{
+    background-color: #A85921;
+}
+
+.cabecalho2{
+    background-color: #E6914E;
+    font-family: "Inknut Antiqua";
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 19px;
+    padding-top: 15px;
+}
+
+.menu-princial{
+    background-color: #FFF3DE;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    word-spacing: 90px;
+    border: 2px solid #000;
+}
+
+.item-menu{
+    font-family: "Inknut Antiqua";
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.livrologo{
+    background-color: #E6914E;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.livroletra{
+    color: #000;
+    font-family: "Inknut Antiqua";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.item-livro{
+    background-color: #FFF3DE;
+    padding-top: 30px;
+    border: 2px solid #000;
+    padding-left: 10px;
+}
+
+/* LIVROS */
+
+#fundo2 {
+	background-image: url("imagens/fundolivro.jpg");
+	background-size: cover;
+}
+
+.cabecalho3 {
+	background-color: #A85921;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.logo-texto1 {
+	font-family: "Inknut Antiqua";
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 600px;
+}
+
+.livroguerra {
+	width: 140px;
+	height: auto;
+	margin-left: 635px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.descricaolivro {
+	background-color: #A85921;
+	border-radius: 10px;
+	border: 2px solid #5D2C13;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 50%;
+	margin: auto;
+}
+
+.titulo {
+	font-weight: bold;
+	font-family: "Inknut Antiqua";
+	color: white;
+	font-size: 30px;
+	padding-left: 50px;
+	line-height: 1.8;
+}
+
+.subtitulo {
+	color: #fff;
+	font-family: "Inknut Antiqua";
+	font-size: 25px;
+	padding-left: 10px;
+}
+
+.titulo2 {
+	color: #fff;
+	font-family: "Inknut Antiqua";
+	margin-top: 10px;
+	line-height: 4.5;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+.subtitulo2 {
+	color: #fff;
+	font-family: "Inknut Antiqua";
+	font-size: 25px;
+	line-height: 1.4;
+}
+
+.botao-voltar2 {
+	color: #fff;
+	background-color: #E6914E;
+	font-family: "Inknut Antiqua";
+	font-weight: 500;
+	font-size: 20px;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	margin-left: 43%;
+	margin-top: 20px;
+}
+
+/*livro2*/
+
+.cabecalho4 {
+	background-color: #A85921;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.logo-texto2 {
+	font-family: "Inknut Antiqua";
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 600px;
+}
+
+.livroalice {
+	width: 140px;
+	height: auto;
+	margin-left: 635px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.descricaolivro2 {
+	background-color: #A85921;
+	border-radius: 10px;
+	border: 2px solid #5D2C13;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 50%;
+	margin: auto;
+}
+
+.titulo3 {
+	font-weight: bold;
+	font-family: "Inknut Antiqua";
+	color: white;
+	font-size: 30px;
+	padding-left: 50px;
+	line-height: 1.8;
+}
+
+.subtitulo3 {
+	color: #fff;
+	font-family: "Inknut Antiqua";
+	font-size: 25px;
+	padding-left: 10px;
+}
+
+.titulo4 {
+	color: #fff;
+	font-family: "Inknut Antiqua";
+	margin-top: 10px;
+	line-height: 4.5;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+.subtitulo4 {
+	color: #fff;
+	font-family: "Inknut Antiqua";
+	font-size: 25px;
+	line-height: 1.4;
+}
+
+.botao-voltar3 {
+	color: #fff;
+	background-color: #E6914E;
+	font-family: "Inknut Antiqua";
+	font-weight: 500;
+	font-size: 20px;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	margin-left: 43%;
+	margin-top: 20px;
+}
+
+/*livro3*/
+
+.cabecalho5 {
+	background-color: #A85921;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.logo-texto3 {
+	font-family: "Inknut Antiqua";
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 600px;
+}
+
+.livroprincipe {
+	width: 140px;
+	height: auto;
+	margin-left: 635px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.descricaolivro3 {
+	background-color: #A85921;
+	border-radius: 10px;
+	border: 2px solid #5D2C13;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 50%;
+	margin: auto;
+}
+
+.titulo4 {
+	font-weight: bold;
+	font-family: "Inknut Antiqua";
+	color: white;
+	font-size: 30px;
+	padding-left: 50px;
+	line-height: 1.8;
+}
+
+.subtitulo4 {
+	color: #fff;
+	font-family: "Inknut Antiqua";
+	font-size: 25px;
+	padding-left: 10px;
+}
+
+.titulo5 {
+	color: #fff;
+	font-family: "Inknut Antiqua";
+	margin-top: 10px;
+	line-height: 4.5;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+.subtitulo5 {
+	color: #fff;
+	font-family: "Inknut Antiqua";
+	font-size: 25px;
+	line-height: 1.4;
+}
+
+.botao-voltar4 {
+	color: #fff;
+	background-color: #E6914E;
+	font-family: "Inknut Antiqua";
+	font-weight: 500;
+	font-size: 20px;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	margin-left: 43%;
+	margin-top: 20px;
+}
