@@ -36,7 +36,7 @@
                     </select>
                 </form>
                 <button class="botao-criar">Criar Conta</button><br>
-                <a href="login.html">
+                <a href="login.php">
                     <button type="button" class="botao-voltar">Voltar</button><br>
                 </a>
             </form>

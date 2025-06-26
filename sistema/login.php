@@ -18,7 +18,7 @@
                 <label class="rotulo2">Senha</label>
                 <input type="password" class="campo-texto" placeholder="Digite sua senha">
                 <button class="botao-entrar">Entrar</button><br>
-                <a href="criarconta.html">
+                <a href="criarconta.php">
                     <button type="button" class="botao-criar-conta">Criar Conta</button><br>
                 </a>
             </form>
