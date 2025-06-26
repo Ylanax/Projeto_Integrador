@@ -15,5 +15,5 @@
     <main class="conteudo">
         <header class="cabecalho2">
             <img src="imagens/logolivro.png" width="30">
-            <h2 class="logo-texto">Biblioteca Virtual</h2>
+            <h2 class="logo-texto01">Biblioteca Virtual</h2>
         </header>

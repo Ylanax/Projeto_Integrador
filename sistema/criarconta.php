@@ -9,23 +9,23 @@
 </head>
 <body id="fundo">
     <main class="conteudo">
-        <div id="col1">
+        <div id="col2">
             <h2 class="login">Criar Conta</h2>
             <p class="dados">Preencha seus dados</p>
             <form class="clientes">
-                <label class="rotulo1">Nome Completo</label>
+                <label class="rotulo01">Nome Completo</label>
                 <input type="text" class="campo-texto1" placeholder="Digite seu nome">
-                <label class="rotulo1">CPF</label>
+                <label class="rotulo02">CPF</label>
                 <input type="text" class="campo-texto1" placeholder="Digite seu CPF">
-                <label class="rotulo1">Telefone</label>
+                <label class="rotulo03">Telefone</label>
                 <input type="text" class="campo-texto1" placeholder="(11) 91234-5678">
-                <label class="rotulo1">Email</label>
+                <label class="rotulo04">Email</label>
                 <input type="text" class="campo-texto1" placeholder="Digite seu email">
-                <label class="rotulo1">Confirmar Email</label>
+                <label class="rotulo05">Confirmar Email</label>
                 <input type="text" class="campo-texto1" placeholder="Confirme seu email">
-                <label class="rotulo1">Senha</label>
+                <label class="rotulo06">Senha</label>
                 <input type="password" class="campo-texto1" placeholder="Digite sua senha">
-                <label class="rotulo1">Confirmar Senha</label>
+                <label class="rotulo07">Confirmar Senha</label>
                 <input type="password" class="campo-texto1" placeholder="Confirme sua senha">
                 <form>
                     <label class="sexo">Gênero:</label>

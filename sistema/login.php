@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../estilo.css">
     <link rel="shortcut icon" href="../imagens/icone.png" type="image/icone">
 </head>
-<body id="fundo1">
+<body id="fundo">
     <main class="conteudo">
         <div id="col1">
             <h2 class="login">LOGIN</h2>
@@ -19,7 +19,7 @@
                 <input type="password" class="campo-texto" placeholder="Digite sua senha">
                 <button class="botao-entrar">Entrar</button><br>
                 <a href="criarconta.html">
-                    <button type="button" class="botao-criar">Criar Conta</button><br>
+                    <button type="button" class="botao-criar-conta">Criar Conta</button><br>
                 </a>
             </form>
         </div>
