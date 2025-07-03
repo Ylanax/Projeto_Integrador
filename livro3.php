@@ -60,7 +60,3 @@
             <button type="button" class="botao-voltar4">Voltar</button><br>
         </div>
     </main>
-
-</body>
-
-</html>
