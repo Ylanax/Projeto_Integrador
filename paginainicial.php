@@ -3,12 +3,11 @@ include "cabecalho.php";
 ?>
 
 <nav class="menu-princial">
-    <a href="#" class="item-menu">Livros</a>
+    <a href="#livros" class="item-menu">Livros</a>
     <a href="#" class="item-menu">Contato</a>
-    <a href="#" class="item-menu">Recentes</a>
-    <a href="#" class="item-menu">QuemSomos</a>
+    <a href="#quem-somos" class="item-menu">QuemSomos</a>
 </nav>
-<div class="livrologo">
+<div id="livros" class="livrologo">
     <h2 class="livroletra">Livros</h2>
 </div>
 <div class="container-fluid">
@@ -38,7 +37,7 @@ include "cabecalho.php";
         ?>
     </div>
 </div>
-<div class="livrologo">
+<div id="quem-somos" class="livrologo">
     <h2 class="livroletra">Quem Somos</h2>
 </div>
 <div class="container my-5">
