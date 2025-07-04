@@ -10,8 +10,8 @@
 
 <body id="fundo2">
     <main class="conteudo">
-        <header class="cabecalho5">
-            <a class="logo-texto3">Biblioteca Virtual</a>
+        <header class="cabecalho3">
+            <a class="logo-texto1">Biblioteca Virtual</a>
         </header>
         <div class="capalivro3">
             <img src="imagens/livro3.png" alt="Capa Livro O Pequeno Príncipe" class="livroprincipe">

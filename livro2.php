@@ -10,8 +10,8 @@
 
 <body id="fundo2">
     <main class="conteudo">
-        <header class="cabecalho4">
-            <a class="logo-texto2">Biblioteca Virtual</a>
+        <header class="cabecalho3">
+            <a class="logo-texto1">Biblioteca Virtual</a>
         </header>
         <div class="capalivro2">
             <img src="imagens/livro2.png" alt="Capa Livro Alice no País das Maravilhas" class="livroalice">

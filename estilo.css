@@ -85,7 +85,6 @@ table {
     font-size: 25px;
     font-weight: bold;
     display: flex;
-    align-items: center;
 }
 
 .menu{
@@ -435,7 +434,7 @@ margin-bottom: 40px;
     padding-top: 20px;
     text-align: center;
     word-spacing: 90px;
-    border: 2px solid #000;
+    border: 2px solid #5f4124;
 }
 
 .item-menu{
@@ -462,8 +461,23 @@ margin-bottom: 40px;
 .container-fluid{
     background-color: #FFF3DE;
     padding-top: 30px;
-    border: 2px solid #000;
+    border: 2px solid #5f4124;
 }
+
+.quem-somos {
+    font-family: "Inknut Antiqua";
+    border: 3px solid #5f4124;
+    background-color: #fff8e7;
+  }
+  .coluna + .coluna{
+    border-left: 2px solid #5f4124;
+  }
+  .coluna:first-child {
+    border-left: none;
+  }
+  .coluna p {
+    text-align: justify;
+  }
 
 
 
@@ -476,8 +490,8 @@ margin-bottom: 40px;
 
 .cabecalho3 {
 	background-color: #A85921;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .logo-texto1 {
@@ -501,6 +515,8 @@ margin-bottom: 40px;
 	border: 2px solid #5D2C13;
 	padding-top: 40px;
 	padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 	width: 50%;
 	margin: auto;
 }
@@ -508,30 +524,34 @@ margin-bottom: 40px;
 .titulo {
 	font-weight: bold;
 	font-family: "Inknut Antiqua";
-	color: white;
-	font-size: 30px;
+	color: black;
+	font-size: 25px;
 	padding-left: 50px;
 	line-height: 1.8;
 }
 
-.subtitulo {
+.titulo2 {
+	color: #000;
+	font-family: "Inknut Antiqua";
+	line-height: 1.2;
+	font-size: 25px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+.col-livro{
+    box-shadow: 0 0 20px rgba(189, 87, 19, 0.856);
+}
+
+/*.subtitulo {
 	color: #fff;
 	font-family: "Inknut Antiqua";
 	font-size: 25px;
 	padding-left: 10px;
 }
+*/
 
-.titulo2 {
-	color: #fff;
-	font-family: "Inknut Antiqua";
-	margin-top: 10px;
-	line-height: 4.5;
-	font-size: 30px;
-	font-weight: bold;
-	padding-left: 50px;
-}
-
-.subtitulo2 {
+/* .subtitulo2 {
 	color: #fff;
 	font-family: "Inknut Antiqua";
 	font-size: 25px;
@@ -550,7 +570,7 @@ margin-bottom: 40px;
 	margin-top: 20px;
 }
 
-/*livro2*/
+/*livro2
 
 .cabecalho4 {
 	background-color: #A85921;
@@ -627,8 +647,9 @@ margin-bottom: 40px;
 	margin-left: 43%;
 	margin-top: 20px;
 }
+*/
 
-/*livro3*/
+/*livro3
 
 .cabecalho5 {
 	background-color: #A85921;
@@ -705,3 +726,4 @@ margin-bottom: 40px;
 	margin-left: 43%;
 	margin-top: 20px;
 }
+*/

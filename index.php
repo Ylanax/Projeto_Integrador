@@ -13,9 +13,6 @@
             <nav class="menu">
                 <img class="logo" src="imagens/iconelivro.png" alt="livro" height="60">
                 <a class="logo-texto">Biblioteca Virtual</a>
-                <a href="sistema/criarconta.php" class="link-menu1 ativo">Página Inicial</a>
-                <a href="sistema/login.php" class="link-menu2 ativo">Quem Somos</a>
-                <a href="sistema/login.php" class="link-menu3 ativo">Login</a>
             </nav>
         </header>
         <div class="banner">
@@ -25,6 +22,5 @@
             </nav>
         </div>
     </main>
-    
 </body>
 </html>
