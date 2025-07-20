@@ -37,6 +37,31 @@ include "cabecalho.php";
         ?>
     </div>
 </div>
+
+<div class="curiosidades-livro">
+    <h2 class="curio-livro">Curiosidades</h2>
+</div>
+
+<div class="row">
+        <div class="col-6">
+            <img src="imagens/bmw.jpg" class="img-fluid mt-5">
+        </div>
+        <div class="col-6 align-content-center">
+            <h2 class="bmw-m4 fw-bold text-black">BMW M4 Coupé</h2>
+            <p class="fw-semibold text-black">O motor S55 é baseado no N55, mas com componentes internos reforçados e dois turbos.
+                Muita gente faz remap, atingindo facilmente mais de 500 cv com segurança. A BMW M4 F82 é a versão de alto desempenho da Série 4 Coupé, desenvolvida pela divisão BMW M. Lançada em 2014, ela substituiu o BMW M3 Coupé da geração anterior (E92), que fazia parte da Série 3. A partir daí, o M3 ficou apenas como sedã, enquanto o M4 representa o coupé e o conversível.
+            </p>
+            <ul class="fw-semibold">
+                <li>Motor: 3.0 litros, 6 cilindros em linha, TwinPower Turbo (biturbo)</li>
+                <li>Potência: Versão padrão: 431 cv (425 hp) @ 5.500–7.300 rpm.</li>
+                <li>Torque: 550 Nm (406 lb-ft) @ 1.850–5.500 rpm.</li>
+                <li>Transmissão: Manual de 6 marchas / Automática de dupla embreagem (DCT) de 7 marchas (opcional).</li>
+                <li>Performance (M4 padrão): 0–100 km/h: ~4,1 segundos (com DCT) // Velocidade máxima: 250 km/h (limitada eletronicamente).</li>
+            </ul>
+            <a href="https://www.bmw.com.br/pt/all-models/m-series/bmw-4-series-m-models/bmw-m4-coupe.html#dados-tecnicos" class="btn btn-dark fw-semibold">Saiba Mais</a>
+        </div>
+    </div>
+
 <div id="quem-somos" class="livrologo">
     <h2 class="livroletra">Quem Somos</h2>
 </div>
@@ -65,3 +90,5 @@ include "cabecalho.php";
         </div>
     </div>
 </div>
+
+<?php include "rodape.php"; ?>

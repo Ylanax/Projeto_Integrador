@@ -96,7 +96,7 @@ table {
     font-family: "Inknut Antiqua";
     color: black;
     display: inline-block;
-    margin-left: 590px;
+    margin-left: 60%;
     margin-right: 45px;
     font-size: 20px;
     font-weight: medium;
@@ -541,6 +541,37 @@ margin-bottom: 40px;
 
 .col-livro{
     box-shadow: 0 0 20px rgba(189, 87, 19, 0.856);
+}
+
+/* RODAPÉ */
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer small {
+    display: block;
+}
+
+/* CURIOSIDADES */
+
+.curiosidades-livro{
+    background-color: #E6914E;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.curio-livro{
+    color: #000;
+    font-family: "Inknut Antiqua";
+    font-weight: bold;
+    font-size: 25px;
 }
 
 /*.subtitulo {
