@@ -1,6 +1,6 @@
 <footer class="rodape">
     <hr>
-    <img src="imagens/iconelivro.png">
+    <img src="imagens/iconelivro.png" class="img-rodape">
     <small class="fw-semibold text-black"><?php echo date("Y"); ?></small>
 </footer>
 

@@ -44,21 +44,13 @@ include "cabecalho.php";
 
 <div class="row">
         <div class="col-6">
-            <img src="imagens/bmw.jpg" class="img-fluid mt-5">
+            <img src="imagens/curio-bela.JPG" class="img-fluid mt-5">
         </div>
         <div class="col-6 align-content-center">
-            <h2 class="bmw-m4 fw-bold text-black">BMW M4 Coupé</h2>
-            <p class="fw-semibold text-black">O motor S55 é baseado no N55, mas com componentes internos reforçados e dois turbos.
-                Muita gente faz remap, atingindo facilmente mais de 500 cv com segurança. A BMW M4 F82 é a versão de alto desempenho da Série 4 Coupé, desenvolvida pela divisão BMW M. Lançada em 2014, ela substituiu o BMW M3 Coupé da geração anterior (E92), que fazia parte da Série 3. A partir daí, o M3 ficou apenas como sedã, enquanto o M4 representa o coupé e o conversível.
+            <h2 class="bela-fera fw-bold text-black">A Bela e a Fera</h2>
+            <p class="fw-semibold text-black">É provável que todos vocês já tenham ouvido falar do clássico da literatura mundial que conta a história da jovem camponesa que para salvar o pai da morte, decide se casar com uma fera muito feia, mas com o coração super bondoso... Essa é, em poucas palavras, a história do livro A Bela e a Fera, que ganhou uma edição super especial da Zahar e agora compõe a coleção Clássicos Zahar.
+                A obra ficou muito famosa no ano de 1756, quando Madame Beaumont publicou uma versão curta e infantil para a história que na verdade foi escrita por Madame de Villeneuve, no ano de 1740, tendo como público alvo os adultos. 
             </p>
-            <ul class="fw-semibold">
-                <li>Motor: 3.0 litros, 6 cilindros em linha, TwinPower Turbo (biturbo)</li>
-                <li>Potência: Versão padrão: 431 cv (425 hp) @ 5.500–7.300 rpm.</li>
-                <li>Torque: 550 Nm (406 lb-ft) @ 1.850–5.500 rpm.</li>
-                <li>Transmissão: Manual de 6 marchas / Automática de dupla embreagem (DCT) de 7 marchas (opcional).</li>
-                <li>Performance (M4 padrão): 0–100 km/h: ~4,1 segundos (com DCT) // Velocidade máxima: 250 km/h (limitada eletronicamente).</li>
-            </ul>
-            <a href="https://www.bmw.com.br/pt/all-models/m-series/bmw-4-series-m-models/bmw-m4-coupe.html#dados-tecnicos" class="btn btn-dark fw-semibold">Saiba Mais</a>
         </div>
     </div>
 
