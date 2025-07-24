@@ -558,6 +558,11 @@ footer small {
     display: block;
 }
 
+.img-rodape{
+    height: 70px;
+    width: 70px;
+}
+
 /* CURIOSIDADES */
 
 .curiosidades-livro{
@@ -572,6 +577,35 @@ footer small {
     font-family: "Inknut Antiqua";
     font-weight: bold;
     font-size: 25px;
+}
+
+.img-bela{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.img-principe{
+    width: 50%;
+    margin-left: 260px;
+    margin-top: 140px;
+}
+
+.texto-bela{
+    margin-right: 150px;
+}
+
+.texto-principe{
+    margin-left: 150px;
+}
+
+.titulo-bela{
+    font-size: 25px;
+}
+
+.titulo-principe{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 150px;
 }
 
 /*.subtitulo {

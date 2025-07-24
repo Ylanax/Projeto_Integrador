@@ -5,6 +5,7 @@ include "cabecalho.php";
 <nav class="menu-princial">
     <a href="#livros" class="item-menu">Livros</a>
     <a href="#" class="item-menu">Contato</a>
+    <a href="#curiosidades" class="item-menu">Curiosidades</a>
     <a href="#quem-somos" class="item-menu">QuemSomos</a>
 </nav>
 <div id="livros" class="livrologo">
@@ -38,28 +39,53 @@ include "cabecalho.php";
     </div>
 </div>
 
-<div class="curiosidades-livro">
+<div id="curiosidades" class="curiosidades-livro">
     <h2 class="curio-livro">Curiosidades</h2>
 </div>
 
 <div class="row">
-        <div class="col-6">
-            <img src="imagens/curio-bela.JPG" class="img-fluid mt-5">
-        </div>
+    <div class="col-6">
+        <img src="imagens/bela.jpg" class="img-fluid mt-5 img-bela">
+    </div>
+    <div class="col-6 align-content-center">
+        <h2 class="fw-bold text-black titulo-bela mb-3">A Bela e a Fera</h2>
+        <p class="fw-semibold text-black texto-bela">É provável que todos vocês já tenham ouvido falar do clássico da literatura mundial que conta a história da jovem camponesa que para salvar o pai da morte, decide se casar com uma fera muito feia, mas com o coração super bondoso... Essa é, em poucas palavras, a história do livro A Bela e a Fera, que ganhou uma edição super especial da Zahar e agora compõe a coleção Clássicos Zahar.
+            A obra ficou muito famosa no ano de 1756, quando Madame Beaumont publicou uma versão curta e infantil para a história que na verdade foi escrita por Madame de Villeneuve, no ano de 1740, tendo como público alvo os adultos.
+        </p>
+        <ul class="fw-semibold text-black mt-3 texto-bela">
+            <li class="mb-3">1. A versão mais famosa de "A Bela e a Fera" foi escrita por Jeanne-Marie Leprince de Beaumont em 1756, mas a história original foi escrita por Gabrielle-Suzanne Barbot de Villeneuve e publicada em 1740, com mais de 300 páginas. </li>
+            <li class="mb-3">2. O conto pode ter sido inspirado na história de Petrus Gonsalvus, um homem com hipertricose que viveu no século XVI e se casou com uma mulher bela. </li>
+            <li class="mb-3">3. A versão original de "A Bela e a Fera" tem diferenças em relação à animação da Disney. Por exemplo, os amigos de Bela no castelo são macacos e pássaros, não os objetos encantados como Lumière e Cogsworth, e o feitiço é feito por uma fada, não uma bruxa má. </li>
+            <li class="mb-3">4. A animação da Disney enfatiza o amor de Bela pela leitura, algo que não é tão presente na versão original do conto. </li>
+            <li>5. A versão de Beaumont omitiu alguns elementos da história original, especialmente os de teor erótico, e romantizou o conto para um público mais jovem. </li>
+        </ul>
+    </div>
+    <div class="row">
         <div class="col-6 align-content-center">
-            <h2 class="bela-fera fw-bold text-black">A Bela e a Fera</h2>
-            <p class="fw-semibold text-black">É provável que todos vocês já tenham ouvido falar do clássico da literatura mundial que conta a história da jovem camponesa que para salvar o pai da morte, decide se casar com uma fera muito feia, mas com o coração super bondoso... Essa é, em poucas palavras, a história do livro A Bela e a Fera, que ganhou uma edição super especial da Zahar e agora compõe a coleção Clássicos Zahar.
-                A obra ficou muito famosa no ano de 1756, quando Madame Beaumont publicou uma versão curta e infantil para a história que na verdade foi escrita por Madame de Villeneuve, no ano de 1740, tendo como público alvo os adultos. 
+            <h2 class="fw-bold text-black titulo-principe mb-3">O Pequeno Príncipe</h2>
+            <p class="fw-semibold text-black texto-principe">Escrito pelo francês Antoine de Saint-Exupéry e publicado pela primeira vez em 1943, o livro virou obra de cabeceira para leitores de diferentes gerações, sendo traduzido para mais de 500 idiomas ao redor do globo.
+                A trama segue um piloto de avião que faz um pouso forçado no Saara, onde encontra um garoto de cabelos dourados, que vestido como um príncipe, diz ter vindo de um mundo distante. Enquanto os dois lutam para não enlouquecer de sede no deserto, o menino conta histórias das muitas viagens que fez pelo universo em busca das coisas mais importantes da vida.
             </p>
+            <ul class="fw-semibold text-black mt-3 texto-principe">
+                <li class="mb-3">1. Antoine de Saint-Exupéry, o escritor do Pequeno Príncipe era um conde. O escritor do Pequeno Príncipe tinha um nome longuíssimo: Antoine Jean-Baptiste Marie Roger Foscolombe e tinha um título de nobreza que lhe conferia o status de Conde de Saint-Exupéry. No final das contas chamavam-no de Antoine de Saint-Exupéry ou, para os íntimos, Tonio apenas. Ele era um conde, mas trabalhava como aviador contratado para fazer entregas postais.</li>
+                <li class="mb-3">2. A obra O Pequeno Príncipe só existiu por causa de uma pane no avião de Antoine. No ano novo de 1936, o avião que Antoine de Saint-Exupéry pilotava, autor do Pequeno Príncipe, caiu no deserto do Saara e ele passou quatro dias sofrendo de desidratação, fome, e tendo alucinações, até ser resgatado por um beduíno. A ideia para a história do pequeno príncipe surgiu aí. </li>
+                <li class="mb-3">3. Antoine ficou perdido no Saara porque estava atolado em dívidas. </li>
+                <li class="mb-3">4. Consuelo, a esposa de Exupéry era a rosa do livro O Pequeno Príncipe. A rosa que tanto tosse na história do pequeno Príncipe é Consuelo, que sofre de asma. A rosa é frágil e de personalidade forte, assim como a esposa de Antoine. O relacionamento de Antoine e Consuelo foi marcado por idas e vindas. Assim como o Príncipe, Antoine vivia partindo e voltando para sua esposa e apesar das brigas e diferenças ele demonstrava grande fascínio por ela, uma artista nata, cheia de convicções e bastante enigmática. Para alguns Consuelo era um tipo de Sherazade, pois ela contava muitas histórias acerca de si, a ponto de confundir as pessoas sobre seu passado. Por isso ela era chamada de Sherazade dos trópicos, já que nascera em El Salvador. </li>
+                <li class="mb-5">5. Antoine pediu sua esposa em casamento horas depois de tê-la conhecido. Em Buenos Aires Antoine conheceu a salvadorenha Consuelo. Ela se encantou com sua figura: um homem de quase 2 metros de altura, audacioso e aventureiro, aviador, com jeito de garotão, que tocava piano. Ele a pediu em casamento naquele mesmo dia, horas depois de tê-la conhecido. Levou-a para voar em seu avião e lá antes de pedir por um beijo pediu-lhe a mão. Notando a negativa de Consuelo em dar-lhe a mão e o beijo ele desligou o avião que caiu em parafuso até que ela resolveu ceder. O beijo aconteceu, mas o casamento somente anos mais tarde. </li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <img src="imagens/principe.jpg" class="img-fluid img-principe">
         </div>
     </div>
+</div>
 
 <div id="quem-somos" class="livrologo">
     <h2 class="livroletra">Quem Somos</h2>
 </div>
 <div class="container my-5">
-  <div class="row quem-somos">
-    <div class="col-md-6 p-4 coluna">
+    <div class="row quem-somos">
+        <div class="col-md-6 p-4 coluna">
             <p><strong>Somos duas estudantes do Curso Técnico em Informática e este é o nosso Projeto Integrador.
                     Apresentamos a Biblioteca Virtual:<br>
                     <strong>"Navegantes do Conhecimento - Unindo Gerações"</strong>.
