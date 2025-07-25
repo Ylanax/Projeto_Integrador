@@ -4,7 +4,7 @@ include "cabecalho.php";
 
 <nav class="menu-princial">
     <a href="#livros" class="item-menu">Livros</a>
-    <a href="#" class="item-menu">Contato</a>
+    <a href="#contato" class="item-menu">Contato</a>
     <a href="#curiosidades" class="item-menu">Curiosidades</a>
     <a href="#quem-somos" class="item-menu">QuemSomos</a>
 </nav>
@@ -70,8 +70,8 @@ include "cabecalho.php";
                 <li class="mb-3">1. Antoine de Saint-Exupéry, o escritor do Pequeno Príncipe era um conde. O escritor do Pequeno Príncipe tinha um nome longuíssimo: Antoine Jean-Baptiste Marie Roger Foscolombe e tinha um título de nobreza que lhe conferia o status de Conde de Saint-Exupéry. No final das contas chamavam-no de Antoine de Saint-Exupéry ou, para os íntimos, Tonio apenas. Ele era um conde, mas trabalhava como aviador contratado para fazer entregas postais.</li>
                 <li class="mb-3">2. A obra O Pequeno Príncipe só existiu por causa de uma pane no avião de Antoine. No ano novo de 1936, o avião que Antoine de Saint-Exupéry pilotava, autor do Pequeno Príncipe, caiu no deserto do Saara e ele passou quatro dias sofrendo de desidratação, fome, e tendo alucinações, até ser resgatado por um beduíno. A ideia para a história do pequeno príncipe surgiu aí. </li>
                 <li class="mb-3">3. Antoine ficou perdido no Saara porque estava atolado em dívidas. </li>
-                <li class="mb-3">4. Consuelo, a esposa de Exupéry era a rosa do livro O Pequeno Príncipe. A rosa que tanto tosse na história do pequeno Príncipe é Consuelo, que sofre de asma. A rosa é frágil e de personalidade forte, assim como a esposa de Antoine. O relacionamento de Antoine e Consuelo foi marcado por idas e vindas. Assim como o Príncipe, Antoine vivia partindo e voltando para sua esposa e apesar das brigas e diferenças ele demonstrava grande fascínio por ela, uma artista nata, cheia de convicções e bastante enigmática. Para alguns Consuelo era um tipo de Sherazade, pois ela contava muitas histórias acerca de si, a ponto de confundir as pessoas sobre seu passado. Por isso ela era chamada de Sherazade dos trópicos, já que nascera em El Salvador. </li>
-                <li class="mb-5">5. Antoine pediu sua esposa em casamento horas depois de tê-la conhecido. Em Buenos Aires Antoine conheceu a salvadorenha Consuelo. Ela se encantou com sua figura: um homem de quase 2 metros de altura, audacioso e aventureiro, aviador, com jeito de garotão, que tocava piano. Ele a pediu em casamento naquele mesmo dia, horas depois de tê-la conhecido. Levou-a para voar em seu avião e lá antes de pedir por um beijo pediu-lhe a mão. Notando a negativa de Consuelo em dar-lhe a mão e o beijo ele desligou o avião que caiu em parafuso até que ela resolveu ceder. O beijo aconteceu, mas o casamento somente anos mais tarde. </li>
+                <li class="mb-3">4. Consuelo, a esposa de Exupéry era a rosa do livro O Pequeno Príncipe. </li>
+                <li class="mb-5">5. Antoine pediu sua esposa em casamento horas depois de tê-la conhecido. </li>
             </ul>
         </div>
         <div class="col-6">
@@ -108,5 +108,21 @@ include "cabecalho.php";
         </div>
     </div>
 </div>
+<div id="contato" class="contato">
+    <h2 class="contatos">Contato</h2>
+</div>
+<iframe class="mapa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.314148677067!2d-47.339393735395944!3d-22.753185769813705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1753398375369!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+<div class="redes">
+    <h2 class="titulo-redes">Siga nas redes sociais: </h2>
+    <a href="https://facebook.com/" class="a-rede">
+    <img src="imagens/facebook.png" class="rede" width="28">
+    </a>
+    <a href="https://www.instagram.com/navegantes_conhecimento/" class="a-rede">
+    <img src="imagens/instagram.png" class="rede" width="28">
+    </a>
+    <a href="https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fpt-BR&lang=en&enter_method=mandatory">
+    <img src="imagens/tiktok.png" class="rede" width="28" class="a-rede">
+    </a>
+</div>
 <?php include "rodape.php"; ?>

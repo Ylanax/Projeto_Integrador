@@ -60,7 +60,6 @@ table {
 }
 
 .banner{
-    background-image: url(imagens/ancora2.jpg);
     background-size: cover;
     padding-top: 160px;
     padding-bottom: 80px;
@@ -587,7 +586,6 @@ footer small {
 .img-principe{
     width: 50%;
     margin-left: 260px;
-    margin-top: 140px;
 }
 
 .texto-bela{
@@ -608,6 +606,42 @@ footer small {
     margin-left: 150px;
 }
 
+/* CONTATO */
+
+.contato{
+    background-color: #E6914E;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contatos{
+    color: #000;
+    font-family: "Inknut Antiqua";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mapa{
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
+.redes{
+    font-family: "Inknut Antiqua";
+    font-size: 20px;
+    color: #000;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.rede{
+    margin-top: 10px;
+}
+
+.a-rede{
+    color: #A85921;
+}
 /*.subtitulo {
 	color: #fff;
 	font-family: "Inknut Antiqua";
