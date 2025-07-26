@@ -1,7 +1,8 @@
 <footer class="rodape">
-    <hr>
+    <hr class="linha-rodape">
     <img src="imagens/iconelivro.png" class="img-rodape">
     <small class="fw-semibold text-black"><?php echo date("Y"); ?></small>
+    <p class="copy-rodape">&copy; Biblioteca Virtual </p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"

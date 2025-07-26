@@ -114,7 +114,7 @@ include "cabecalho.php";
 <iframe class="mapa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.314148677067!2d-47.339393735395944!3d-22.753185769813705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1753398375369!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 <div class="redes">
-    <h2 class="titulo-redes">Siga nas redes sociais: </h2>
+    <h2 class="titulo-redes">Siga nas redes sociais </h2>
     <a href="https://facebook.com/" class="a-rede">
     <img src="imagens/facebook.png" class="rede" width="28">
     </a>
