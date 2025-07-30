@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../estilo.css">
     <link rel="shortcut icon" href="../imagens/icone.png" type="image/icone">
 </head>
+
 <body id="fundo">
     <main class="conteudo">
         <div id="col1">
@@ -24,8 +26,9 @@
             </form>
         </div>
     </main>
-    
+
     <script src="app.js"></script>
 </body>
 </body>
+
 </html>

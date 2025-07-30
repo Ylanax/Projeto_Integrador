@@ -1,4 +1,13 @@
 <?php 
+$nome = $_POST['nome'];
+$email = $_POST['email'];
+$telefone = $_POST['telefone'];
+$cpf = $_POST['cpf'];
+$senha_hash = password_hash($_POST['senha_hash'], PASSWORD_DEFAULT);
+
+$sql = "insert into usuarios(nome, email, telefone, cpf, senha_hash) values ('$nome', '$email', '$telefone', '$cpf', '$senha_hash')";
+
+ 
 $servidor = 'localhost';
 $bd = 'projeto biblioteca';
 $usuario = 'root';
@@ -9,27 +18,23 @@ if (!$conexao) {
     die("deu ruim" . mysqli_connect_error());
 }
 
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$telefone = $_POST['telefone'];
-$cpf = $_POST['cpf'];
-$senha_hash = $_POST['senha_hash'];
 
-$nome = $conn->real_escape_string($nome);
-$email = $conn->real_escape_string($email);
-$telefone = $conn->real_escape_string($telefone);
-$cpf = $conn->real_escape_string($cpf);
-$senha_hash = $conn->real_escape_string($senha_hash);
+$resultado = mysqli_query($conexao, $sql);
 
-$sql = "SELECT * FROM usuarios WHERE email='$email' AND senha_hash='$senha_hash'";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    echo "Login realizado com sucesso!";
-    // Redirecionar ou iniciar sessão aqui
+if ($resultado) {
+    echo "<script>
+            alert('Usuário cadastrado com sucesso!');
+            window.location.href = 'login.php';
+          </script>";
 } else {
-    echo "Email ou senha incorretos.";
+    echo "<script>
+            alert('Erro ao cadastrar o usuário: " . mysqli_error($conexao) . "');
+            window.history.back();
+          </script>";
 }
 
-$conn->close();
+
+mysqli_close($conexao);
+
+
 ?>
