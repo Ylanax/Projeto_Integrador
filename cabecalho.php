@@ -14,6 +14,9 @@
 <body id="inicial">
     <main class="conteudo">
         <header class="cabecalho2">
+            <div class="cabecalho-titulo">
             <img src="imagens/logolivro.png" width="30">
             <h2 class="logo-texto01">Biblioteca Virtual</h2>
+            </div>
+            <a href="sistema/login.php" class="login-page">Login</a>
         </header>

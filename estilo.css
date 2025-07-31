@@ -421,10 +421,23 @@ margin-bottom: 40px;
     font-family: "Inknut Antiqua";
     color: #000;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding-bottom: 19px;
     padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-titulo{
+    width: 90%;
+    padding-left: 10%;
+}
+
+.login-page{
+    margin-right: 20px;
+    color: #000;
 }
 
 .menu-princial{
