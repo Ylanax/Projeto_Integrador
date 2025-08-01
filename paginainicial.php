@@ -111,13 +111,13 @@ include "cabecalho.php";
 <div id="contato" class="form-container">
         <h2 class="contato">Contato</h2>
         <form action="https://formspree.io/f/mrblljvj" method="post">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            <label class="form-cont" for="nome">Nome</label>
+            <input class="input-cont" type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
     
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            <label class="form-cont" for="email">E-mail</label>
+            <input class="input-cont" type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
     
-            <label for="mensagem">Mensagem</label>
+            <label class="form-cont" for="mensagem">Mensagem</label>
             <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
     
             <button class="botao1 fw-semibold" type="submit">Enviar</button>

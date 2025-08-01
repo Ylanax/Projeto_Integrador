@@ -648,7 +648,7 @@ footer small {
     margin-bottom: 30px;
 }
 
-label {
+.form-cont {
     color: #000;
     display: block;
     margin-bottom: 8px;
@@ -656,8 +656,8 @@ label {
     font-family: "Inknut Antiqua";
 }
 
-input[type="text"],
-input[type="email"],
+.input-cont[type="text"],
+.input-cont[type="email"],
 textarea {
     width: 100%;
     padding: 12px;
