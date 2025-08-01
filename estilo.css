@@ -537,7 +537,7 @@ margin-bottom: 40px;
 	font-weight: bold;
 	font-family: "Inknut Antiqua";
 	color: black;
-	font-size: 25px;
+	font-size: 20px;
 	padding-left: 50px;
 	line-height: 1.8;
 }
@@ -546,9 +546,10 @@ margin-bottom: 40px;
 	color: #000;
 	font-family: "Inknut Antiqua";
 	line-height: 1.2;
-	font-size: 25px;
-	font-weight: bold;
+	font-size: 20px;
+	font-weight: normal;
 	padding-left: 50px;
+    display: flex;
 }
 
 .col-livro{
@@ -577,6 +578,7 @@ footer small {
 
 .copy-rodape{
     color: #000;
+    margin-bottom: 20px;
 }
 
 .linha-rodape{
@@ -630,23 +632,66 @@ footer small {
 
 /* CONTATO */
 
-.contato{
+.form-container {
     background-color: #E6914E;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 254, 255, 0.856);
+    width: 100%;
+    max-width: 500px;
+    margin:20px auto;
 }
 
-.contatos{
+.form-container h2 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+label {
+    color: #000;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-family: "Inknut Antiqua";
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.botao1 {
+    font-family: "Inknut Antiqua";
+    background-color: #A85921;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.contato{
     color: #000;
     font-family: "Inknut Antiqua";
     font-weight: bold;
     font-size: 25px;
-}
-
-.mapa{
-    margin-left: 30%;
-    margin-top: 40px;
 }
 
 .redes{
@@ -655,6 +700,7 @@ footer small {
     color: #000;
     margin-top: 40px;
     margin-left: 10px;
+    text-align: center;
 }
 
 .rede{

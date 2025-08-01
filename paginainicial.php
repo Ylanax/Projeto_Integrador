@@ -108,21 +108,34 @@ include "cabecalho.php";
         </div>
     </div>
 </div>
-<div id="contato" class="contato">
-    <h2 class="contatos">Contato</h2>
-</div>
-<iframe class="mapa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.314148677067!2d-47.339393735395944!3d-22.753185769813705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1753398375369!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div id="contato" class="form-container">
+        <h2 class="contato">Contato</h2>
+        <form action="https://formspree.io/f/mrblljvj" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+    
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+    
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
+    
+            <button class="botao1 fw-semibold" type="submit">Enviar</button>
+        </form>
+    </div>
+
+<!-- <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.314148677067!2d-47.339393735395944!3d-22.753185769813705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1753398375369!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
 <div class="redes">
     <h2 class="titulo-redes">Siga nas redes sociais </h2>
     <a href="https://facebook.com/" class="a-rede">
-    <img src="imagens/facebook.png" class="rede" width="28">
+        <img src="imagens/facebook.png" class="rede" width="28">
     </a>
     <a href="https://www.instagram.com/navegantes_conhecimento/" class="a-rede">
-    <img src="imagens/instagram.png" class="rede" width="28">
+        <img src="imagens/instagram.png" class="rede" width="28">
     </a>
     <a href="https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fpt-BR&lang=en&enter_method=mandatory">
-    <img src="imagens/tiktok.png" class="rede" width="28" class="a-rede">
+        <img src="imagens/tiktok.png" class="rede" width="28" class="a-rede">
     </a>
 </div>
 <?php include "rodape.php"; ?>

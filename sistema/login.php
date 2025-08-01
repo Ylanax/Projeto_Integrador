@@ -14,12 +14,12 @@
         <div id="col1">
             <h2 class="login">LOGIN</h2>
             <p class="dados">Preencha seus dados</p>
-            <form class="clientes">
+            <form action="validar.php" method="POST" class="clientes">
                 <label class="rotulo1">Email</label>
-                <input type="text" class="campo-texto" placeholder="Digite seu email">
+                <input type="text" class="campo-texto" name="email" placeholder="Digite seu email">
                 <label class="rotulo2">Senha</label>
-                <input type="password" class="campo-texto" placeholder="Digite sua senha">
-                <button class="botao-entrar">Entrar</button><br>
+                <input type="password" class="campo-texto" name="senha_hash" placeholder="Digite sua senha">
+                <button type="submit" class="botao-entrar">Entrar</button><br>
                 <a href="criarconta.php">
                     <button type="button" class="botao-criar-conta">Criar Conta</button><br>
                 </a>
