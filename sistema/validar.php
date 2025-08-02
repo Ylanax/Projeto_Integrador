@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $email = $_POST['email'];
 $senhaBD = $_POST['senha_hash'];
 
@@ -16,6 +18,8 @@ $sql = "select * from usuarios where email = '$email' and senha_hash='$senhaBD'"
 $resultado = mysqli_query($conexao, $sql);
 
 if($resultado->num_rows > 0){
+    $usuario = mysqli_fetch_assoc($resultado);
+    $_SESSION['usuario'] = $usuario['nome'];
     header("Location:../paginainicial.php");
 }else{
     header("Location:login.php");
