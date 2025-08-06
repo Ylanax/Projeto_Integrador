@@ -1,6 +1,7 @@
 <?php
 include "cabecalho.php";
 ?>
+
     <nav class="menu-princial">
     <a href="#livros" class="item-menu">Livros</a>
     <a href="#contato" class="item-menu">Contato</a>
@@ -10,8 +11,6 @@ include "cabecalho.php";
 <div id="livros" class="livrologo">
     <h2 class="livroletra">Livros</h2>
 </div>
-
-
 
 <div class="container-fluid">
     <div class="row">
@@ -31,6 +30,9 @@ include "cabecalho.php";
                         <h4 class="card-title fw-bold text-center mb-3 text-black"><?= $linha['titulo']; ?></h4>
                         <a href="livros.php?id=<?= $linha['id']; ?>" class="btn btn-dark d-flex justify-content-center fw-semibold">Detalhes</a>
                     </div>
+
+
+                    
                 </div>
             </div>
             </nav>

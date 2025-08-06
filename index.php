@@ -18,7 +18,7 @@
         <div class="banner">
             <img src="imagens/logo.png" class="logo-banner">
             <nav class="botao">
-                <a href="paginainicial.php" class="botao-navegar">Comece à navegar</a>
+                <a href="paginasemlogin.php" class="botao-navegar">Comece à navegar</a>
             </nav>
         </div>
     </main>
