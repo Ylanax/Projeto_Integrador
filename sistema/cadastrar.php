@@ -8,7 +8,7 @@ $senha_hash = password_hash($_POST['senha_hash'], PASSWORD_DEFAULT);
 $sql = "insert into usuarios(nome, email, telefone, cpf, senha_hash) values ('$nome', '$email', '$telefone', '$cpf', '$senha_hash')";
 
  
-$servidor = 'localhost';
+$servidor = '10.125.46.31';
 $bd = 'projeto biblioteca';
 $usuario = 'root';
 $senha = '';
