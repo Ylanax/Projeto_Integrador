@@ -3,7 +3,9 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $telefone = $_POST['telefone'];
 $cpf = $_POST['cpf'];
-$senha_hash = password_hash($_POST['senha_hash'], PASSWORD_DEFAULT);
+// $senha_hash = password_hash($_POST['senha_hash'], PASSWORD_DEFAULT);
+$senha_hash = md5($_POST['senha_hash']);
+
 
 $sql = "insert into usuarios(nome, email, telefone, cpf, senha_hash) values ('$nome', '$email', '$telefone', '$cpf', '$senha_hash')";
 
