@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Livros</title>
+    <link rel="stylesheet" href="estiloform.css">
 </head>
 <body>
     <h1>Listagem de Livros</h1>
-    <a href="LivroFormularioInserir.php">Adicionar Novo Livro</a><br>
+    <a class="btn-adicionar" href="LivroFormularioInserir.php">Adicionar Novo Livro</a><br>
 
     <table border="1">
         <tr>
