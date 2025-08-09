@@ -497,6 +497,16 @@ margin-bottom: 40px;
     margin-top: 30px;
     text-align: center;
     margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-left: 0 !important;
+}
+
+.coluna-esquerda{
+    border-right: 1px solid #000;
+}
+.coluna-direita{
+    /* border-left: 1px solid #000; */
 }
   
 /* LIVROS */
@@ -522,7 +532,6 @@ margin-bottom: 40px;
 .livroguerra {
 	width: 140px;
 	height: auto;
-	margin-left: 635px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -559,7 +568,8 @@ margin-bottom: 40px;
 }
 
 .col-livro{
-    box-shadow: 0 0 20px rgba(189, 87, 19, 0.856);
+    display: flex;
+    justify-content: center;
 }
 
 /* RODAPÉ */

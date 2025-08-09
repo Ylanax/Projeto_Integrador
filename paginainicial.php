@@ -2,7 +2,7 @@
 include "cabecalho.php";
 ?>
 
-    <nav class="menu-princial">
+<nav class="menu-princial">
     <a href="#livros" class="item-menu">Livros</a>
     <a href="#contato" class="item-menu">Contato</a>
     <a href="#curiosidades" class="item-menu">Curiosidades</a>
@@ -32,7 +32,7 @@ include "cabecalho.php";
                     </div>
 
 
-                    
+
                 </div>
             </div>
             </nav>
@@ -89,7 +89,7 @@ include "cabecalho.php";
 </div>
 <div class="container">
     <div class="row quem-somos">
-        <div class="p-4 coluna">
+        <div class="p-4 coluna-esquerda ">
             <p><strong>Somos duas estudantes do Curso Técnico em Informática e este é o nosso Projeto Integrador.
                     Apresentamos a Biblioteca Virtual:<br>
                     <strong>"Navegantes do Conhecimento - Unindo Gerações"</strong>.
@@ -98,6 +98,8 @@ include "cabecalho.php";
             <p>Nosso projeto tem como objetivo principal promover a inclusão literária e o acesso ao conhecimento para pessoas de todas as idades.
                 Acreditamos que a leitura pode ser uma ponte entre diferentes gerações, incentivando o aprendizado, a troca de experiências e o desenvolvimento pessoal e coletivo.
             </p>
+        </div>
+        <div class="p-4 coluna-direita">
             <p>A Biblioteca Virtual foi pensada para ser um espaço acessível, interativo e educativo, onde jovens, adultos e idosos possam navegar juntos pelo universo do saber, por meio de livros digitais.
             </p>
             <p>Esperamos que vocês gostem da nossa iniciativa!
@@ -110,20 +112,20 @@ include "cabecalho.php";
     </div>
 </div>
 <div id="contato" class="form-container">
-        <h2 class="contato">Contato</h2>
-        <form action="https://formspree.io/f/mrblljvj" method="post">
-            <label class="form-cont" for="nome">Nome</label>
-            <input class="input-cont" type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
-    
-            <label class="form-cont" for="email">E-mail</label>
-            <input class="input-cont" type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
-    
-            <label class="form-cont" for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
-    
-            <button class="botao1 fw-semibold" type="submit">Enviar</button>
-        </form>
-    </div>
+    <h2 class="contato">Contato</h2>
+    <form action="https://formspree.io/f/mrblljvj" method="post">
+        <label class="form-cont" for="nome">Nome</label>
+        <input class="input-cont" type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+        <label class="form-cont" for="email">E-mail</label>
+        <input class="input-cont" type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+        <label class="form-cont" for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
+
+        <button class="botao1 fw-semibold" type="submit">Enviar</button>
+    </form>
+</div>
 
 <!-- <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.314148677067!2d-47.339393735395944!3d-22.753185769813705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1753398375369!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
