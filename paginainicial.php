@@ -11,6 +11,7 @@ include "cabecalho.php";
 <div id="livros" class="livrologo">
     <h2 class="livroletra">Livros</h2>
 </div>
+
 <div class="container-fluid">
     <div class="row">
         <?php
@@ -24,11 +25,14 @@ include "cabecalho.php";
 
             <div class="col-3 mb-5">
                 <div class="card bg-white text-white h-100" style="width: 15rem;">
-                    <img src=<?= $linha['foto']; ?> class="card-img-top">
+                    <img src=<?= $linha['foto']; ?> class="">
                     <div class="card-body">
                         <h4 class="card-title fw-bold text-center mb-3 text-black"><?= $linha['titulo']; ?></h4>
                         <a href="livros.php?id=<?= $linha['id']; ?>" class="btn btn-dark d-flex justify-content-center fw-semibold">Detalhes</a>
                     </div>
+
+
+
                 </div>
             </div>
             </nav>
@@ -83,9 +87,9 @@ include "cabecalho.php";
 <div id="quem-somos" class="livrologo">
     <h2 class="livroletra">Quem Somos</h2>
 </div>
-<div class="container my-5">
+<div class="container">
     <div class="row quem-somos">
-        <div class="col-md-6 p-4 coluna">
+        <div class="p-4 coluna-esquerda ">
             <p><strong>Somos duas estudantes do Curso Técnico em Informática e este é o nosso Projeto Integrador.
                     Apresentamos a Biblioteca Virtual:<br>
                     <strong>"Navegantes do Conhecimento - Unindo Gerações"</strong>.
@@ -95,10 +99,9 @@ include "cabecalho.php";
                 Acreditamos que a leitura pode ser uma ponte entre diferentes gerações, incentivando o aprendizado, a troca de experiências e o desenvolvimento pessoal e coletivo.
             </p>
         </div>
-        <div class="col-md-6 p-4 coluna">
+        <div class="p-4 coluna-direita">
             <p>A Biblioteca Virtual foi pensada para ser um espaço acessível, interativo e educativo, onde jovens, adultos e idosos possam navegar juntos pelo universo do saber, por meio de livros digitais.
             </p>
-
             <p>Esperamos que vocês gostem da nossa iniciativa!
                 Acompanhem nosso trabalho e nos sigam nas redes sociais para ficar por dentro das novidades!
                 "Navegantes do Conhecimento - Unindo Gerações"<br><br>
@@ -108,21 +111,34 @@ include "cabecalho.php";
         </div>
     </div>
 </div>
-<div id="contato" class="contato">
-    <h2 class="contatos">Contato</h2>
+<div id="contato" class="form-container">
+    <h2 class="contato">Contato</h2>
+    <form action="https://formspree.io/f/mrblljvj" method="post">
+        <label class="form-cont" for="nome">Nome</label>
+        <input class="input-cont" type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+        <label class="form-cont" for="email">E-mail</label>
+        <input class="input-cont" type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+        <label class="form-cont" for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
+
+        <button class="botao1 fw-semibold" type="submit">Enviar</button>
+    </form>
 </div>
-<iframe class="mapa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.314148677067!2d-47.339393735395944!3d-22.753185769813705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1753398375369!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!-- <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.314148677067!2d-47.339393735395944!3d-22.753185769813705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1753398375369!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
 <div class="redes">
     <h2 class="titulo-redes">Siga nas redes sociais </h2>
     <a href="https://facebook.com/" class="a-rede">
-    <img src="imagens/facebook.png" class="rede" width="28">
+        <img src="imagens/facebook.png" class="rede" width="28">
     </a>
     <a href="https://www.instagram.com/navegantes_conhecimento/" class="a-rede">
-    <img src="imagens/instagram.png" class="rede" width="28">
+        <img src="imagens/instagram.png" class="rede" width="28">
     </a>
     <a href="https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fpt-BR&lang=en&enter_method=mandatory">
-    <img src="imagens/tiktok.png" class="rede" width="28" class="a-rede">
+        <img src="imagens/tiktok.png" class="rede" width="28" class="a-rede">
     </a>
 </div>
 <?php include "rodape.php"; ?>

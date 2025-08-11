@@ -1,5 +1,5 @@
 <?php 
-$servidor = 'localhost';
+$servidor = '10.125.46.31';
 $bd = 'projeto biblioteca';
 $usuario = 'root';
 $senha = '';
