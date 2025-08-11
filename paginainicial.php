@@ -22,7 +22,7 @@ include "cabecalho.php";
         while ($linha = mysqli_fetch_assoc($resultado)) {
         ?>
 
-            <div class="col-3 mb-5 ">
+            <div class="col-3 mb-5">
                 <div class="card bg-white text-white h-100" style="width: 15rem;">
                     <img src=<?= $linha['foto']; ?> class="card-img-top">
                     <div class="card-body">
