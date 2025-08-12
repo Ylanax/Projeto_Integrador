@@ -4,9 +4,9 @@ include "cabecalho.php";
 
 <nav class="menu-princial">
     <a href="#livros" class="item-menu">Livros</a>
-    <a href="#contato" class="item-menu">Contato</a>
     <a href="#curiosidades" class="item-menu">Curiosidades</a>
     <a href="#quem-somos" class="item-menu">QuemSomos</a>
+    <a href="#contato" class="item-menu">Contato</a>
 </nav>
 <div id="livros" class="livrologo">
     <h2 class="livroletra">Livros</h2>
